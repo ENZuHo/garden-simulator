@@ -13,7 +13,5 @@
         "workbench.colorTheme": "Dark Modern"
       }
     }
-  },
-
-  "postCreateCommand": "pip install -r requirements.txt"
+  }
 }
