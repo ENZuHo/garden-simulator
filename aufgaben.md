@@ -22,4 +22,4 @@
    1. [Info] The crop carrot has no file entry.
 
 
-5. Füge ein neues Crop "potatoe" hinzu. Man soll es schon nach 2 water + day Zyklen ernten können. Die Aufgabe ist im Code *nicht* mittels Kommentarblöcken markiert. Es müssen dazu Änderungen in beiden Dateien main.py und garden.py gemacht werden.
+5. Füge ein neues Crop "potato" hinzu. Man soll es schon nach 2 water + day Zyklen ernten können. Die Aufgabe ist im Code *nicht* mittels Kommentarblöcken markiert. Es müssen dazu Änderungen in beiden Dateien main.py und garden.py gemacht werden.
