@@ -16,10 +16,10 @@
    1. Created file 'tomato.txt' at 18.05.2026 18:36:22.
 
 
-4. Wenn *keine* Tomate geerntet wird, soll bei den anderen Crops in der Konsole der Satz ausgegeben werden: "[Info] No file entry was made for the crop \<name of the crop>."
+4. Wenn *keine* Tomate geerntet wird, soll bei den anderen Crops in der Konsole der Satz ausgegeben werden: "[Info] The crop \<name of the crop> has no file entry."
 
     Beispiel:
-   1. [Info] No file entry was made for the crop carrot.
+   1. [Info] The crop carrot has no file entry.
 
 
 5. Füge ein neues Crop "potatoe" hinzu. Man soll es schon nach 2 water + day Zyklen ernten können. Die Aufgabe ist im Code *nicht* mittels Kommentarblöcken markiert. Es müssen dazu Änderungen in beiden Dateien main.py und garden.py gemacht werden.

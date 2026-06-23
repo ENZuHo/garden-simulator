@@ -159,15 +159,15 @@ def test_task_3_tomato_creation_message():
 def test_task_4_non_tomato_message():
     with temporary_working_directory():
         garden_module = import_fresh("garden")[0]
-        garden = prepare_ripe_crop(garden_module, "carrot")
+        garden = prepare_ripe_crop(garden_module, "bean")
         output = io.StringIO()
         with contextlib.redirect_stdout(output):
             harvested_crop = garden_module.harvest(garden, 0, 0)
 
-        require(harvested_crop == "carrot", "Harvesting did not return carrot.")
+        require(harvested_crop == "bean", "Harvesting did not return bean.")
         require(
-            "[Info] No file entry was made for the crop carrot." in output.getvalue(),
-            "The required information message for carrot was not printed.",
+            "[Info] The crop bean has no file entry." in output.getvalue(),
+            "The required information message for bean was not printed.",
         )
 
 
