@@ -103,7 +103,7 @@ def harvest(garden, row, col):
 
 def create_tomato_harvest_file():
     ### Aufgabe 3: Wenn eine Tomate geerntet wird, soll der User über das Erstellen der tomato.txt Datei informiert werden.
-    ### Der Satz "Created file 'tomato.txt' at <current_datetime>" soll in der Konsole ausgegeben werden.
+    ### Der Satz "Created file 'tomato.txt' at <current datetime>" soll in der Konsole ausgegeben werden.
     ### Beispiel: Created file 'tomato.txt' at 18.05.2026 18:36:22
 
     harvests_dir = Path("harvests")
