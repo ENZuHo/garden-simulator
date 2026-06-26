@@ -96,6 +96,9 @@ def harvest(garden, row, col):
     cell["water"] = 0
     cell["days_as_seed"] = 0
 
+    if harvested_crop != "tomato":
+        print("[Info] The crop <name of the crop> has no file entry")
+
     if harvested_crop == "tomato":
         create_tomato_harvest_file()
 
@@ -114,4 +117,6 @@ def create_tomato_harvest_file():
     with target_file.open("a", encoding="utf-8") as file:
         file.write(line)
 
+        print("Creaed file tomato.txt at <current datetie>")
     ### Aufgabe 3 Ende
+

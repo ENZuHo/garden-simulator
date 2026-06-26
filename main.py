@@ -1,7 +1,7 @@
 from cli_view import GardenPrinter
 from garden import advance_day, create_garden, dig, harvest, plant, water
 
-CROPS = ["carrot", "tomato", "bean"]
+CROPS = ["carrot", "tomato", "bean", "potato"]
 
 COMMAND_COL_WIDTH = 18
 DESCRIPTION_COL_WIDTH = 52
@@ -53,6 +53,7 @@ def print_help_table():
         ("water row col", "Water a seed cell", "water 1 2"),
         ("day", "Advance simulation by one day", "day"),
         ("harvest row col", "Harvest a ripe crop", "harvest 1 2"),
+        ("quit", "Exit the simulator", "quit")
     ]
     ### Ende Aufgabe 2
 
